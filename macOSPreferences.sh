@@ -250,6 +250,46 @@ defaults write com.apple.SoftwareUpdate AutomaticDownload -int 1
 defaults write com.apple.SoftwareUpdate CriticalUpdateInstall -int 1
 
 ###############################################################################
+# Dock settings
+###############################################################################
+
+# Reset Dock to blank slate
+# Wipe all (default) app icons from the Dock
+#defaults write com.apple.dock persistent-apps -array
+
+# Add Dock items
+# Position (Left to right)
+# 1. Finder
+# 2. Siri
+# 3. LaunchPad
+# 4. Safari
+# 5. Github
+# 6. OmniFocus
+# 7. Atom
+# 8. Firefox
+# 9. Mail (Outlook) //Spark
+# 10. Notion
+# 11. System Preferences
+# 12. Terminal (Optional)
+
+# # Position 1 is immediately right of Finder
+# dockutil --add /Applications/Siri.app --position 1
+# dockutil --add /Applications/LaunchPad.app --position 2
+# dockutil --add /Applications/Safari.app --position 3
+# dockutil --add /Applications/Github\ Desktop.app --position 4
+# dockutil --add /Application/OmniFocus.app --position 5
+# dockutil --add /Applications/Atom.app --position 6
+# dockutil --add /Applications/Firefox.app --position 7
+# dockutil --add /Applications/Spark.app --position 8
+# dockutil --add /Applications/Notion.app --position 9
+# dockutil --add /Applications/System\ Preferences.app --position 10
+
+# Seperate Location for Terminal
+# dockutil --add /Applications/Utilities/Termainal.app --position 11
+
+
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
