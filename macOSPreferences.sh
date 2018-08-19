@@ -255,7 +255,7 @@ defaults write com.apple.SoftwareUpdate CriticalUpdateInstall -int 1
 
 # Reset Dock to blank slate
 # Wipe all (default) app icons from the Dock
-#defaults write com.apple.dock persistent-apps -array
+# defaults write com.apple.dock persistent-apps -array
 
 # Add Dock items
 # Position (Left to right)
@@ -283,11 +283,6 @@ defaults write com.apple.SoftwareUpdate CriticalUpdateInstall -int 1
 # dockutil --add /Applications/Spark.app --position 8
 # dockutil --add /Applications/Notion.app --position 9
 # dockutil --add /Applications/System\ Preferences.app --position 10
-
-# Seperate Location for Terminal
-# dockutil --add /Applications/Utilities/Termainal.app --position 11
-
-
 
 ###############################################################################
 # Kill affected applications                                                  #
