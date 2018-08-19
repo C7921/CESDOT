@@ -178,6 +178,9 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 	OpenWith -bool true \
 Privileges -bool true
 
+# Always open everything in Finder's list view.
+defaults write com.apple.Finder FXPreferredViewStyle Nlsv
+
 ###############################################################################
 # Safari and Internet
 ###############################################################################
