@@ -44,7 +44,7 @@ defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 # Enable Dark Mode (Also use Brew//Github Project 'Dark-Mode')
 osascript -e 'tell application "System Events" to tell appearance preferences to set dark mode to true'
 
-# Start ScreenSaver at 2 Minutes
+# Start Screen Saver at 2 Minutes
 defaults -currentHost write com.apple.screensaver idleTime 120
 
 # Hide the Dock
