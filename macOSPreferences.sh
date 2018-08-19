@@ -3,8 +3,12 @@
 #
 # 1. General Interace
 # 2. System Settings and Prefernces
-# 3. Finder
-# 4.
+# 3. Time Machine
+# 4. Finder
+# 5. Safari & Internet
+# 6. Spotlight
+# 7. Mac App Store
+# 8. Dock
 
 #### Sets macOS Preferences
 
