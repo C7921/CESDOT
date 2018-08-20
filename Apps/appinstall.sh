@@ -3,5 +3,3 @@
 echo "Installing apps..."
 
 brew bundle
-
-brew cask alfred link
