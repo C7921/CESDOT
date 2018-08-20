@@ -4,6 +4,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/headonly"
 tap "homebrew/livecheck"
+tap "mas-cli/tap"
 brew "bash"
 brew "bash-completion"
 brew "emacs"
@@ -16,6 +17,7 @@ brew "git"
 brew "gnu-sed", args: ["with-default-names"]
 brew "openssl"
 brew "mackup"
+brew "mas"
 brew "mycli"
 brew "nmap"
 brew "node", link: false
@@ -26,14 +28,29 @@ brew "python"
 brew "shellcheck"
 brew "wget"
 brew "yarn"
+brew "zsh"
+brew "zsh-completions"
 cask "aerial"
 cask "font-advent-pro"
 cask "font-inconsolata"
 cask "imageoptim"
 cask "slack"
 cask "touch-bar-simulator"
-cask "firefox"
-cask "sublime-text"
-cask "evernote"
-cask "vlc"
-cask "alferd"
+mas "1Password 7", id: 1333542190
+mas "Affinity Designer", id: 824171161
+mas "Aperture", id: 408981426
+mas "Apple Configurator 2", id: 1037126344
+mas "Bear", id: 1091189122
+mas "GIPHY CAPTURE", id: 668208984
+mas "High Sierra", id: 0
+mas "iBooks Author", id: 490152466
+mas "Keynote", id: 409183694
+mas "Magnet", id: 441258766
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "NordVPN IKE", id: 1116599239
+mas "Numbers", id: 409203825
+mas "OmniFocus", id: 867299399
+mas "Pages", id: 409201541
+mas "Server", id: 883878097
+mas "Spark", id: 1176895641
+mas "Xcode", id: 497799835
