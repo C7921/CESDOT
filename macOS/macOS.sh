@@ -297,7 +297,8 @@ dockutil --add /Applications/Siri.app --position 1
 dockutil --add /Applications/LaunchPad.app --position 2
 dockutil --add /Applications/Safari.app --position 3
 dockutil --add /Applications/Github\ Desktop.app --position 4
-dockutil --add /Application/OmniFocus.app --position 5
+# dockutil --add /Application/OmniFocus.app --position 5
+dockutil --add /Applications/Fantastical\ 2.app --position 5
 dockutil --add /Applications/Atom.app --position 6
 dockutil --add /Applications/Firefox.app --position 7
 dockutil --add /Applications/Spark.app --position 8

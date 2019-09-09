@@ -25,6 +25,7 @@ brew "pkg-config"
 brew "putty"
 brew "pv"
 brew "python"
+brew "python3"
 brew "shellcheck"
 brew "wget"
 brew "yarn"
@@ -34,12 +35,12 @@ cask "aerial"
 cask "font-advent-pro"
 cask "font-inconsolata"
 cask "imageoptim"
-cask "slack"
+# cask "slack"
 cask "touch-bar-simulator"
 mas "1Password 7", id: 1333542190
 mas "Affinity Designer", id: 824171161
 mas "Aperture", id: 408981426
-mas "Apple Configurator 2", id: 1037126344
+# mas "Apple Configurator 2", id: 1037126344
 mas "Bear", id: 1091189122
 # mas "GIPHY CAPTURE", id: 668208984
 # mas "High Sierra", id: 0
@@ -47,10 +48,13 @@ mas "Bear", id: 1091189122
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
 # mas "Microsoft Remote Desktop", id: 1295203466
-mas "NordVPN IKE", id: 1116599239
+# mas "NordVPN IKE", id: 1116599239
 mas "Numbers", id: 409203825
-mas "OmniFocus", id: 867299399
+# mas "OmniFocus", id: 867299399
 mas "Pages", id: 409201541
 mas "Server", id: 883878097
 mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
+mas "Pocket", id: 568494494
+mas "Monosnap", id: 540348655
+mas "Magnet", id: 441258766

@@ -9,5 +9,6 @@ My personal take on dotfiles and setting up a mac.
 2. Install Xcode from the app store.
 3. Install Xcode command line tools.
 4. Install ZSH and Oh-My-Zsh
-5. Clone the repo and fire away! (I think...)
-6. Fingers crossed nothing explodes.
+5. Install some apps that arent on the app store (E.g Things 3, Fantastical 2, DaisyDisk)
+7. Clone the repo and fire away! (I think...)
+8. Fingers crossed nothing explodes.
