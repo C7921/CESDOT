@@ -35,6 +35,7 @@ cask "aerial"
 cask "font-advent-pro"
 cask "font-inconsolata"
 cask "imageoptim"
+cask maccy
 # cask "slack"
 cask "touch-bar-simulator"
 mas "1Password 7", id: 1333542190
